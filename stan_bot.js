@@ -42,7 +42,7 @@ var STANDUP_FORMAT = '*Yesterday*\n' +
 var STANDUP_FORMAT_FALLBACK = 'Yesterday\n%s\nToday\n%s\nIssues\n%s';
 
 // C2GRZK6V9 #test
-var CHANNEL_STANDUP = 'C2GRZK6V9';
+var CHANNEL_STANDUP = process.env.CHANNEL;
 
 var CURRENT_USER = {};
 
