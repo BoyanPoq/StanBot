@@ -11,7 +11,7 @@ var controller = Botkit.slackbot({
 
 // connect the bot to a stream of messages
 controller.spawn({
-    token: 'xoxb-84400740836-1zdPhdZS3sTNfJKfjUYIfXrR',
+    token: process.env.BOT_TOKEN,
 }).startRTM();
 
 var KEYWORD_STANDUP = 'standup';
