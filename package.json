@@ -1,0 +1,22 @@
+{
+  "name": "StanBot",
+  "version": "1.0.0",
+  "description": "Poq's standup bot.",
+  "main": "stan_bot.js",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "moment": "^2.15.1",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "slack",
+    "standup"
+  ],
+  "author": "Boyan Iliev",
+  "license": "Apache License 2.0"
+}
